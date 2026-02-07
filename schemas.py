@@ -3,7 +3,7 @@ pet = {
     "required": ["name", "type"],
     "properties": {
         "id": {
-            "type": "integer"
+            "type": "string"
         },
         "name": {
             "type": "integer"

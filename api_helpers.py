@@ -1,6 +1,7 @@
 import requests
 
-base_url = 'http://localhost:5000'
+base_url = 'http://127.0.0.1:5001'
+print("BASE_URL USED BY TESTS =", base_url)
 
 # GET requests
 def get_api_data(endpoint, params = {}):
